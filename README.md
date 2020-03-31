@@ -16,6 +16,9 @@ E.G: 2018 - 1 - 7 - 020
 <li>CSS</li>
 </ul>
 
+<h3>Usage-</h3>
+<i><a href=" https://triptoafsin.github.io/BUTEX_ID-Gen/">Check it On the Web</i>
+
 <p>Made with ❤ by <a href="https://www.facebook.com/Tripto.Afsin">TriptoAfsin</a></p>
 
 
