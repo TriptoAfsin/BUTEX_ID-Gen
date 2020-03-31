@@ -7,7 +7,7 @@
 
 <br>
 
-<img src="https://i.imgur.com/mY0q9g4.png">
+<p = align="center"><img src="https://i.imgur.com/FkleaNC.png"></p>
 
 <br>
 <h3>Used Technologies - </h3>
