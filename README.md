@@ -1,5 +1,7 @@
 # About BUTEX_ID-Gen - 
 
+<img src="https://upload.wikimedia.org/wikipedia/commons/c/c8/BUTex_LOGO.png" height="500px" width="500px">
+
 This Web App Generates Student IDs of BUTEX
 
 E.G: 2018 - 1 - 7 - 020
