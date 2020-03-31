@@ -41,13 +41,13 @@
             console.log(selctedValue_2);
             console.log(selctedValue_3);
             
-            if(selctedValue_3 > 90){
+            if(selctedValue_3 >= 90){
                 document.getElementById("final_id").value = "Invlaid Roll";
             }
             else if(selctedValue_3 > 9 && selctedValue_3 <90){
                 document.getElementById("final_id").value = selctedValue_1 +" - 1 - "+selctedValue_2+ " - 0"+selctedValue_3;
             }
-            else if(selctedValue_3 < 9){
+            else if(selctedValue_3 <= 9){
                 document.getElementById("final_id").value = selctedValue_1 +" - 1 - "+selctedValue_2+ " - 00"+selctedValue_3;
             }
             
