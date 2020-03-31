@@ -1,6 +1,6 @@
 # About BUTEX_ID-Gen - 
 
-<img src="https://upload.wikimedia.org/wikipedia/commons/c/c8/BUTex_LOGO.png" height="300px" width="300px" align="center">
+<p align="center"><img src="https://upload.wikimedia.org/wikipedia/commons/c/c8/BUTex_LOGO.png" height="300px" width="300px"></p>
 
 This Web App Generates Student IDs of BUTEX
 
