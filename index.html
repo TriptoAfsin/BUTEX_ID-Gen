@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./favicon.png">
+    <link rel="stylesheet" href="./style.css">
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-162214656-1"></script>
+      <script>
+      window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-162214656-1');
+</script>
+
+    <title>BUTEX Student ID Generator</title>
+    <script>
+        
+        function getValue2(){
+            var selctedValue_1 = document.getElementById("hsc_list").value;
+            if(selctedValue_1 == 2020){
+                document.getElementById("batch").value = 46;
+            }
+            else if(selctedValue_1 == 2019){
+                document.getElementById("batch").value = 45;
+            }
+            else if(selctedValue_1 == 2018){
+                document.getElementById("batch").value = 44;
+            }
+            else if(selctedValue_1 == 2017){
+                document.getElementById("batch").value = 43;
+            }
+            else if(selctedValue_1 == 2016){
+                document.getElementById("batch").value = 42;
+            }
+            var selctedValue_2 = document.getElementById("dep_list").value;
+            var selctedValue_3 = document.getElementById("roll").value;
+            console.log(selctedValue_1);
+            console.log(selctedValue_2);
+            console.log(selctedValue_3);
+            
+            if(selctedValue_3 > 90){
+                document.getElementById("final_id").value = "Invlaid Roll";
+            }
+            else if(selctedValue_3 > 9 && selctedValue_3 <90){
+                document.getElementById("final_id").value = selctedValue_1 +" - 1 - "+selctedValue_2+ " - 0"+selctedValue_3;
+            }
+            else if(selctedValue_3 < 9){
+                document.getElementById("final_id").value = selctedValue_1 +" - 1 - "+selctedValue_2+ " - 00"+selctedValue_3;
+            }
+            
+        }
+    </script>
+</head>
+<body>
+
+    <div class="container">
+        <div class="header">
+            <h1>BUTEX Student ID Generator</h1>
+        </div>
+        <div class="app-body">
+            <form class="HSC">
+                <p class="para">HSC :</p>
+                <select id="hsc_list" onchange="getValue2()" class="hsc-list">
+                  <option value="2020">2019</option>
+                  <option value="2019">2018</option>
+                  <option value="2018">2017</option>
+                  <option value="2017">2016</option>
+                  <option value="2016">2015</option>
+                </select>
+              </form>
+              <form class="dep">
+                <p class="para_d">Department :</p>
+                <select id="dep_list" onchange="getValue2()" class="dep-list" >
+                  <option value="1">Yarn Engineering</option>
+                  <option value="2">Fabric Engineering</option>
+                  <option value="3">Wet Process Engineering</option>
+                  <option value="4">Apparel Engineering</option>
+                  <option value="5">Textile Engineering & Managemnet</option>
+                  <option value="6">Textile Fashion Design</option>
+                  <option value="7">Industrial & Production Engineering</option>
+                  <option value="8">Textile Machinery Design & Maintainences</option>
+                  <option value="9">Dyes & Chemical Engineering</option>
+                  <option value="10">Environmental Science & Engineering</option>
+                </select>
+              </form>
+              <p class="input-messege">Your Class Roll: <input type="text" id="roll" oninput="getValue2()" placeholder="Enter roll only e.g 20"></p>
+        </div>
+        <p  class="batch">Your Batch: <input type="text" id="batch" class="batch_inp"></p>
+        <p  class="final-id">Your ID: <input type="text" id="final_id" class="ID_inp"></p>
+        <img src="./BUTex_LOGO.svg" class="logo">
+        <p class="how"><a href="./how.html">Know How BUTEX ID Scheme Works</a></p>
+        <p class="about">Made with ❤ by <a href="https://www.facebook.com/Tripto.Afsin">TriptoAfsin</a></p>
+    </div>
+</body>
+</html>
