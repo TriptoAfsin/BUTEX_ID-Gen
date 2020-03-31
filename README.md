@@ -2,7 +2,7 @@
 
 <p align="center"><img src="https://upload.wikimedia.org/wikipedia/commons/c/c8/BUTex_LOGO.png" height="300px" width="300px"></p>
 
-This Web App Generates Student IDs of BUTEX
+<p align="center">This Web App Generates Student IDs of BUTEX</p>
 
 E.G: 2018 - 1 - 7 - 020
 
