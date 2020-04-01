@@ -16,7 +16,7 @@
   gtag('config', 'UA-162166401-3');
 </script>
     <title>BUTEX Student ID Generator</title>
-    <script>
+   <script>
         
         function getValue2(){
             var selctedValue_1 = document.getElementById("hsc_list").value;
@@ -40,15 +40,46 @@
             console.log(selctedValue_1);
             console.log(selctedValue_2);
             console.log(selctedValue_3);
-            
-            if(selctedValue_3 > 89){
-                document.getElementById("final_id").value = "Invalid Roll";
+            if(selctedValue_1 < 2019 && selctedValue_1 > 2016 ){
+                if(selctedValue_2 == "10"){
+                    document.getElementById("final_id").value = "Invlaid Dept";
+                }
+                else if(selctedValue_3 > 89){
+                document.getElementById("final_id").value = "Invlaid Roll";
             }
             else if(selctedValue_3 > 9 && selctedValue_3 <90){
                 document.getElementById("final_id").value = selctedValue_1 +" - 1 - "+selctedValue_2+ " - 0"+selctedValue_3;
             }
             else if(selctedValue_3 < 10){
                 document.getElementById("final_id").value = selctedValue_1 +" - 1 - "+selctedValue_2+ " - 00"+selctedValue_3;
+            }
+
+            }
+            else if(selctedValue_1 > 2018){
+                if(selctedValue_3 > 89){
+                document.getElementById("final_id").value = "Invlaid Roll";
+            }
+                else if(selctedValue_3 > 9 && selctedValue_3 <90){
+                document.getElementById("final_id").value = selctedValue_1 +" - 1 - "+selctedValue_2+ " - 0"+selctedValue_3;
+            }
+                else if(selctedValue_3 < 10){
+                document.getElementById("final_id").value = selctedValue_1 +" - 1 - "+selctedValue_2+ " - 00"+selctedValue_3;
+                 }
+            }
+            else if(selctedValue_1 < 2017){
+                if(selctedValue_2 == "10" || selctedValue_2 == "9"){
+                    document.getElementById("final_id").value = "Invlaid Dept";
+                }
+                else if(selctedValue_3 > 89){
+                document.getElementById("final_id").value = "Invlaid Roll";
+            }
+            else if(selctedValue_3 > 9 && selctedValue_3 <90){
+                document.getElementById("final_id").value = selctedValue_1 +" - 1 - "+selctedValue_2+ " - 0"+selctedValue_3;
+            }
+            else if(selctedValue_3 < 10){
+                document.getElementById("final_id").value = selctedValue_1 +" - 1 - "+selctedValue_2+ " - 00"+selctedValue_3;
+                }
+
             }
             
         }
