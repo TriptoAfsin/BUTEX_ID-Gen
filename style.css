@@ -158,13 +158,16 @@ body{
     text-align: center;
 }
 
+.how-div{
+    text-alig: center;
+}
+
 .scheme{
     margin-left: 0rem;
 }
 
 .back{
     margin-top: 2rem;
-    margin-left: 7rem;
 }
 
 @media(min-width: 700px){
