@@ -213,7 +213,7 @@ body{
 
 @media(min-width: 700px){
     .ID_inp{
-    margin-left: 0.5rem;
+    margin-left: 1rem;
     background-color: whitesmoke;
     width: 70%;
     border: none;
@@ -245,7 +245,7 @@ body{
     .input-messege{
     margin-top: 0.25rem;
     margin-bottom: 0.25rem;
-    margin-left: 8rem;
+    margin-left: 7rem;
     font-weight: bold;
     text-align: left;
     color: black;
