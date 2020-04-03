@@ -7,7 +7,7 @@
 }
 
 html{
-    font-size: 16px;
+    font-size: 15px;
 }
 
 body{
@@ -31,7 +31,7 @@ body{
 }
 
 .header h1{
-    font-size: 1.8rem;
+    font-size: 1.6rem;
 }
 
 .app-body{
@@ -46,7 +46,7 @@ body{
 }
 
 .HSC{
-    margin-left: 10rem;
+    margin-left: 8.5rem;
     text-align: left;
     font-size: 0.9rem;
     padding:  0.50rem;
@@ -63,7 +63,7 @@ body{
 }
 
 .dep{
-    margin-left: 2rem;
+    margin-left: 1.5rem;
     font-weight: bold;
 }
 
@@ -85,7 +85,7 @@ body{
 .input-messege{
     margin-top: 0.25rem;
     margin-bottom: 0.25rem;
-    margin-left: 3rem;
+    margin-left: 2rem;
     font-weight: bold;
     text-align: left;
     color: black;
@@ -103,7 +103,7 @@ body{
 }
 
 .batch{
-    margin-left: 6.5rem;
+    margin-left: 6rem;
     text-align: left;
     color: black;
     font-size: 30px;
@@ -115,7 +115,7 @@ body{
     text-align: left;
     color: black;
     font-size: 30px;
-    margin-left: 0.6rem;
+    margin-left: 0.4rem;
 }
 
 .batch_inp{
@@ -137,7 +137,7 @@ body{
     font-weight: bold;
     text-align: left;
     color: black;
-    font-size: 30px;
+    font-size: 28px;
     display: inline-block;
 }
 
@@ -152,7 +152,6 @@ body{
     margin-top: 1rem;
     text-align: center;
     color: black;
-    font-size: 16px;
 }
 
 .how{
@@ -166,5 +165,94 @@ body{
 .back{
     margin-top: 2rem;
     margin-left: 7rem;
+}
+
+@media(min-width: 700px){
+   html{
+       font-size: 20px;
+   }
+   .logo{
+    margin-left: 16rem;
+    margin-top: 9rem;
+    height: 150px;
+    width: 150px;
+}
+.container{
+    width: 800px;
+    margin: 10px auto;
+    position: relative;
+    user-select: none; /* prevents user from selcting ui elements*/
+}
+.batch{
+    margin-top: 2rem;
+    margin-left: 12.6rem;
+    text-align: left;
+    color: black;
+    font-size: 40px;
+    display: inline-block;
+
+}
+
+.final-id{
+    text-align: left;
+    color: black;
+    font-size: 40px;
+    margin-left: 9rem;
+}
+.ID_inp{
+    margin-left: 0.5rem;
+    background-color: whitesmoke;
+    width: 70%;
+    border: none;
+    font-weight: bold;
+    text-align: left;
+    color: black;
+    font-size: 40px;
+    display: inline-block;
+}
+.batch_inp{
+    margin-left: 0.25rem;
+    background-color: whitesmoke;
+    width: 40%;
+    border: none;
+    font-weight: bold;
+    text-align: left;
+    color: black;
+    font-size: 40px;
+    display: inline-block;
+}
+.input-messege{
+    margin-top: 0.25rem;
+    margin-bottom: 0.25rem;
+    margin-left: 7rem;
+    font-weight: bold;
+    text-align: left;
+    color: black;
+    font-size: 25px;
+    display: inline-block;
+}
+.input-messege input{
+    
+    width: 50%;
+    margin-left: 0.25rem;
+    margin-top: 0.25rem;
+    text-align: left;
+    font-size: 0.9rem;
+    padding:  0.40rem;
+}
+.dep{
+    margin-left: 7rem;
+    font-weight: bold;
+}
+.HSC{
+    margin-left: 15rem;
+    text-align: left;
+    font-size: 0.9rem;
+    padding:  0.50rem;
+    font-weight: bold;
+    
+}
+
+
 }
 
