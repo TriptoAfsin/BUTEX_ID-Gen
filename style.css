@@ -171,19 +171,26 @@ body{
    html{
        font-size: 20px;
    }
-   .logo{
+}
+@media(min-width: 700px){
+    .logo{
     margin-left: 16rem;
     margin-top: 9rem;
     height: 150px;
     width: 150px;
+}  
 }
-.container{
+   
+@media(min-width: 700px){
+    .container{
     width: 800px;
     margin: 10px auto;
     position: relative;
     user-select: none; /* prevents user from selcting ui elements*/
 }
-.batch{
+}
+@media(min-width: 700px){
+    .batch{
     margin-top: 2rem;
     margin-left: 12.6rem;
     text-align: left;
@@ -193,13 +200,19 @@ body{
 
 }
 
-.final-id{
+}
+
+@media(min-width: 700px){
+    .final-id{
     text-align: left;
     color: black;
     font-size: 40px;
     margin-left: 9rem;
 }
-.ID_inp{
+}
+
+@media(min-width: 700px){
+    .ID_inp{
     margin-left: 0.5rem;
     background-color: whitesmoke;
     width: 70%;
@@ -210,7 +223,11 @@ body{
     font-size: 40px;
     display: inline-block;
 }
-.batch_inp{
+
+}
+
+@media(min-width: 700px){
+    .batch_inp{
     margin-left: 0.25rem;
     background-color: whitesmoke;
     width: 40%;
@@ -221,7 +238,11 @@ body{
     font-size: 40px;
     display: inline-block;
 }
-.input-messege{
+
+}
+
+@media(min-width: 700px){
+    .input-messege{
     margin-top: 0.25rem;
     margin-bottom: 0.25rem;
     margin-left: 7rem;
@@ -231,7 +252,11 @@ body{
     font-size: 25px;
     display: inline-block;
 }
-.input-messege input{
+
+}
+
+@media(min-width: 700px){
+    .input-messege input{
     
     width: 50%;
     margin-left: 0.25rem;
@@ -240,11 +265,19 @@ body{
     font-size: 0.9rem;
     padding:  0.40rem;
 }
-.dep{
+
+}
+
+@media(min-width: 700px){
+    .dep{
     margin-left: 7rem;
     font-weight: bold;
 }
-.HSC{
+
+}
+
+@media(min-width: 700px){
+    .HSC{
     margin-left: 15rem;
     text-align: left;
     font-size: 0.9rem;
@@ -253,6 +286,9 @@ body{
     
 }
 
-
 }
+
+
+
+
 
