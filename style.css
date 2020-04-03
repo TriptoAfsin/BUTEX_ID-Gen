@@ -290,6 +290,13 @@ body{
 }
 
 }
+@media(min0width: 700px){
+    .scheme{
+    margin-left: 0rem;
+    width: 350px;
+    height: 190px;    
+}
+}
 
 
 
